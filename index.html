@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Syed Naseemuddin Hussaini - Official Website</title>
+
+    <!-- Flaticon Icons Reference -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <!-- CSS Stylesheet Reference -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript Reference -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <!-- Header Content -->
+    <header>
+        <h1>Dr. Syed Naseemuddin Hussaini</h1>
+        <p>Consultant of Unani Medicine & Cupping Specialist</p>
+    </header>
+
+    <!-- About -->
+    <div class="profile-section">
+        <h2>Academic Qualification:</h2>
+        <ul>
+            <li>1991 - M.D (Unani Medicine) - University of Health Sciences Vijayawada, Andhra Pradesh</li>
+            <li>1987 - BUMS - Osmania University, Hyderabad, Telangana</li>
+        </ul>
+
+        <h2>Professional Experience in India:</h2>
+        <ul>
+            <li>Jan 1987 - Dec 1987 Government Medical Officer, East Godavari District, Andhra Pradesh</li>
+            <li>Jan 1988 - Dec 1991 Post Graduation M.D. (Unani) Government Nizamia Medical College, Hyderabad, Telangana</li>
+            <li>Jan 1992 - Dec 1994 Unani Physician, Medwin Multispeciality Hospital, Hyderabad, Telangana</li>
+            <li>1995 - 1997 Principal Unani Medical College, Nanded, Maharashtra</li>
+        </ul>
+
+        <h2>Professional Experience in U.A.E:</h2>
+        <ul>
+            <li>1988 - 2020 Consultant of Unani Medicine, Herbal House, Sharjah</li>
+            <li>2020 - 2022 General Practitioner & Cupping Specialist, Dar Basma Medical Centre, Sharjah</li>
+            <li>17/01/2023 - 17/11/2023 General Practitioner, Elaj Medical Centre, Ajman</li>
+            <li>Currently working in Darul Aman Medical Centre, Muwailah, Sharjah</li>
+        </ul>
+    </div>
+
+
+    <!-- Diseases Treated -->
+    <div class="profile-section">
+        <h2>Diseases Successfully Treated:</h2>
+        <ul>
+            <li>Arthritis</li>
+            <li>Migraine</li>
+            <li>Asthma</li>
+            <li>Gastritis</li>
+            <li>Peptic Ulcer</li>
+            <li>Piles & Fissures</li>
+            <li>Eczema</li>
+            <li>Vitiligo</li>
+            <li>Psoriasis</li>
+            <li>Infertility (Male & Female)</li>
+            <li>PCOD</li>
+            <li>Renal Calculus</li>
+        </ul>
+
+        <h2>Expertise in Eye Diseases:</h2>
+        <ul>
+            <li>Squint</li>
+            <li>Macular Edema</li>
+            <li>Treatment of vision loss due to Glaucoma</li>
+            <li>BRVO (Branch Retinal Vein Occlusion)</li>
+            <li>Eye Floaters</li>
+            <li>Optic Nerve Atrophy</li>
+            <li>Eye Allergies</li>
+        </ul>
+    </div>
+
+
+    <!-- Appointment Form -->
+    <div class="container">
+        <button class="btn" onclick="showForm()">Book Appointment</button>
+
+        <div id="appointment-form" class="hidden">
+            <form onsubmit="sendEmail(event)">
+                <label>First Name:</label>
+                <input type="text" id="fname" required placeholder="Your First Name Here">
+                <label>Last Name:</label>
+                <input type="text" id="lname" required placeholder="Your Last Name Here">
+                <label>Email:</label>
+                <input type="email" id="email" required placeholder="someone@example.com">
+                <label>Preferred Date:</label>
+                <input type="date" id="date" required>
+                <label>Telephone Number:</label>
+                <input type="tel" id="phone" required placeholder="e.g., +971-55-XXX-XXXX">
+                <label>Medical Concern / Reason for Visit:</label>
+                <textarea rows="4" id="message" placeholder="Describe your Medical Concern / Reason for Visit."></textarea>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" class="btn" onclick="closeForm()">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact Us Footer-->
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> +971 50 677 4685</p>
+        <div class="social-icons">
+            <a href="tel:+971506774685" title="Call"><i class="fi fi-sr-phone-call"></i></a>
+            <a href="https://wa.me/971506774685" target="_blank" title="WhatsApp"><i class="fi fi-brands-whatsapp"></i></a>
+            <a href="https://www.instagram.com/dr.s.n.hussaini" target="_blank" title="Instagram"><i class="fi fi-brands-instagram"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
